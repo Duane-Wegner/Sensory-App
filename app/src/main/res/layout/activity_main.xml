@@ -1,0 +1,20 @@
+<!--
+    Root layout container for the screen.
+    RelativeLayout allows child views to be positioned relative to each other or the parent.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!--
+       TextView to display sensor data.
+       Initially shows placeholder text until updated by the app.
+   -->
+    <TextView
+        android:id="@+id/sensor_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor data will appear here"
+        android:textSize="18sp" />
+</RelativeLayout>
